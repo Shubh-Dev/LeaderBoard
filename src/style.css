@@ -1,3 +1,54 @@
-.hello {
-  color: red;
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font: 18px/1.5 Arial, helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  padding-left: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.flexbox-1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.my-btn {
+  width: 80px;
+  height: 30px;
+  margin-top: 25px;
+}
+
+.input-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.submit-btn {
+  float: right;
+}
+
+.dynamic-box{
+  border: 1px solid black;
+  display: none;
+}
+
+.dynamic-div:nth-child(even) {
+  background-color: rgb(176, 183, 183);
 }
