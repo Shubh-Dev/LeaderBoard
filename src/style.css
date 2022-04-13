@@ -46,7 +46,7 @@ header {
 
 .dynamic-box {
   border: 1px solid black;
-  display: none;
+  /* display: none; */
 }
 
 .dynamic-div:nth-child(even) {
