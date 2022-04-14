@@ -19,7 +19,8 @@ header {
   width: 80%;
   margin: auto;
   display: flex;
-  gap: 40px;
+  justify-content: space-evenly;
+  border: 1px red dashed;
 }
 
 .flexbox-1 {
