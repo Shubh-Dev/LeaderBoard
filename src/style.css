@@ -8,18 +8,23 @@ body {
   font: 18px/1.5 Arial, helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #d7fdc6;
 }
 
 header {
-  padding-left: 30px;
+  text-align: center;
+  margin-bottom: 8vh;
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
-  gap: 40px;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2em;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 
 .flexbox-1 {
@@ -32,6 +37,7 @@ header {
   width: 80px;
   height: 30px;
   margin-top: 25px;
+  border: 2px solid;
 }
 
 .input-sec {
@@ -51,4 +57,11 @@ header {
 
 .dynamic-div:nth-child(even) {
   background-color: rgb(176, 183, 183);
+}
+
+.name-holder,
+.score-holder {
+  width: 30vw;
+  height: 30px;
+  border: 2px solid;
 }
