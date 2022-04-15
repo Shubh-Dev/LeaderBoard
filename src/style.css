@@ -22,7 +22,6 @@ header {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  border: 1px red dashed;
 }
 
 .flexbox-1 {
