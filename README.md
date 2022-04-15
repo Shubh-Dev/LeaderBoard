@@ -5,6 +5,14 @@
 
 # Screen Shots
 
+![Screenshot from 2022-04-15 16-52-50](https://user-images.githubusercontent.com/46110284/163565220-fac8eafe-237f-4ef5-8818-581dbdfe938c.png)
+
+<hr>
+
+![Screenshot from 2022-04-15 16-52-29](https://user-images.githubusercontent.com/46110284/163565386-a7db1e93-236e-4ca3-bf6d-4df797753afe.png)
+
+<hr>
+
 ## Desktop Version
 
 > Comming Soon.
