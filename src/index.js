@@ -1,5 +1,5 @@
 import './style.css';
-import displayData, { url, mainDynamicBox } from '../modules/display.js';
+import { displayData, url, mainDynamicBox } from '../modules/display.js';
 
 const nameValue = document.querySelector('.name-holder');
 const scoreValue = document.querySelector('.score-holder');
