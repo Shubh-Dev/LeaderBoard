@@ -2,7 +2,7 @@ export const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/a
 
 export const mainDynamicBox = document.querySelector('.dynamic-box');
 
-export const displayData =  async () => {
+export const displayData = async () => {
   const fetchData = await fetch(url).then((response) => response.json());
   fetchData.result.sort((a, b) => b.score - a.score);
   fetchData.result.forEach((item) => {
@@ -12,4 +12,4 @@ export const displayData =  async () => {
     mainDynamicBox.appendChild(dynamicDiv);
     mainDynamicBox.style.display = 'block';
   });
-}
+};
