@@ -17,8 +17,9 @@ header {
 }
 
 .container {
-  width: 90%;
-  margin: auto;
+  width: 70%;
+  min-height: 60vh;
+  margin: auto auto 10vh auto;
   display: flex;
   justify-content: center;
   gap: 3rem;
