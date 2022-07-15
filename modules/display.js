@@ -4,6 +4,7 @@ export const mainDynamicBox = document.querySelector('.dynamic-box');
 
 export const displayData = async () => {
   const fetchData = await fetch(url).then((response) => response.json());
+  console.log(fetchData);
   fetchData.result.sort((a, b) => b.score - a.score);
   fetchData.result.forEach((item) => {
     const dynamicDiv = document.createElement('div');
